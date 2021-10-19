@@ -94,3 +94,4 @@ button_exit.grid(row=1, column=1)
 button_forward.grid(row=1, column=2)
  
 root.mainloop()
+
