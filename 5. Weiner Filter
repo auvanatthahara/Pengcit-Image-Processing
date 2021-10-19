@@ -32,7 +32,7 @@ def plot_freq_spec_3d(freq):
     ax.zaxis.set_major_locator(LinearLocator(10))
     ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
     plt.show()
-
+    
 im = color.rgb2gray(imread('D:\python pengcit\Python-Image-Processing-Cookbook-master\Chapter 03\images\cactus.png'))
 k = 5
 psf = np.ones((k, k)) / k**2
